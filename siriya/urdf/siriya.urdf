@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="siriya">
+  <link
+    name="body_link">
+    <inertial>
+      <origin
+        xyz="-0.077864 -0.0018081 -0.0010084"
+        rpy="0 0 0" />
+      <mass
+        value="1.571" />
+      <inertia
+        ixx="0.00095479"
+        ixy="1.0468E-06"
+        ixz="0.00018752"
+        iyy="0.0016906"
+        iyz="4.8155E-06"
+        izz="0.0014613" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://siriya/meshes/body_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://siriya/meshes/body_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
